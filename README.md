@@ -23,6 +23,5 @@ psutil,
 logging.
 
 # bugs
-subprocess
-
+subprocess opens windows files on none windows machine
 you can brick the server properties files by putting the wrong things in.
