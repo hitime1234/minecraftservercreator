@@ -8,6 +8,8 @@ python 3 at the moment not compiled into a small one click executable.
 
 internet connection
 
+java
+
 imports: 
 os, 
 requests,
