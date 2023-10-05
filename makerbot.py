@@ -91,23 +91,3 @@ class MakerBot:
 
         print("inital Download Complete :3")
         
-
-def main():
-    run = True
-    while run:
-        
-        try:
-            choice = int(input("1.output all Minecraft versions\n2.slient Load\n>"))
-            if (choice == 1):
-                run = False
-                ClassRunner = MakerBot(False)
-            elif (choice ==2):
-                run = False
-                ClassRunner = MakerBot(True)
-        except Exception as e:
-            print("\nnot a valid choice\n")
-        time.sleep(1)
-
-
-#runs main class
-main()

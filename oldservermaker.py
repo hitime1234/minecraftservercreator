@@ -221,17 +221,19 @@ def startup():
     print("\n\n\n\n")
     
 
-try:
-    f = open("server.jar","r")
-    f.close()
-    input("press enter to start server....")
-    serverstart()
-    print("server stopped")
-    quit
-except:
-    startup()
+def main():
+    try:
+        f = open("server.jar","r")
+        f.close()
+        input("press enter to start server....")
+        serverstart()
+        print("server stopped")
+        quit
+    except:
+        startup()
 
 
-
+if __name__ == '__main__':
+    main()
 
 
