@@ -1,4 +1,4 @@
-# minecraft server creator 0.5 alpha
+# minecraft server creator 
 this is a python script for windows that will make a minecraft server and can launch it.
 
 # requirements
