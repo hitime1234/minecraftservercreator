@@ -36,11 +36,11 @@ def versionfinder():
 
 
 def getSystemRam():
-    import platform,socket,re,uuid,json,psutil,logging
+    import platform,socket,re,uuid,json,psutil
     try:
         return int(round(psutil.virtual_memory().total / (1024.0 **3)))
     except Exception as e:
-        logging.exception(e)
+        print(e)
 
 def web(url):
     try:

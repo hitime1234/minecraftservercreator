@@ -2,13 +2,10 @@
 this is a python script for windows that will make a minecraft server and can launch it.
 
 # requirements
-windows 7 and up
 
-python 3 at the moment not compiled into a small one click executable.
+python 3 (Use pyinstaller release build to avoid needing to install python)
+internet connection - duh
 
-internet connection
-
-java
 
 imports: 
 os, 
@@ -21,12 +18,7 @@ platform,
 re,
 uuid,
 json,
-psutil,
-logging.
+psutil.
 
-# bugs
-subprocess opens windows files on none windows machine
-
-you can brick the server properties files by putting the wrong things in.
 
 ![Screenshot](3.jpg)
