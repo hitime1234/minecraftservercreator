@@ -121,7 +121,7 @@ def main():
     run = True
     while run:
         try:
-            config = int(input("\n1.AutoSetup\n2.ChangeConfig\n3.StartupMaker\n4.Exit\n>"))
+            choice = int(input("\n1.AutoSetup\n2.ChangeConfig\n3.StartupMaker\n4.Exit\n>"))
             if (choice ==1):
                 autoSetup()
             elif (choice ==2):
@@ -135,6 +135,7 @@ def main():
                         
         except Exception as e:
             print("\nnot a valid choice\n")
+            print(e)
         time.sleep(1)
         
 
