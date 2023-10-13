@@ -124,7 +124,8 @@ def main():
             config = int(input("\n1.AutoSetup\n2.ChangeConfig\n3.StartupMaker\n4.Exit\n>"))
             if (choice ==1):
                 autoSetup()
-            elif (choice ==2)
+            elif (choice ==2):
+                print("not in use")
                 
             elif (choice ==3):
                 GenerateStartup()
@@ -139,5 +140,5 @@ def main():
 
 
 #runs main class
-#main()
-autoSetup()
+main()
+
