@@ -4,7 +4,8 @@ this is a python script for windows that will make a minecraft server and can la
 # requirements
 
 python 3 (Use pyinstaller release build to avoid needing to install python)
-internet connection - duh
+
+internet connection 
 
 
 imports: 
